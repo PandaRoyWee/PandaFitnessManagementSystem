@@ -1,7 +1,7 @@
 com/example/pandafitnessmanagementsystem/DownloadUrl.java
  com.example.pandafitnessmanagementsystem.DownloadUrl
-com/example/pandafitnessmanagementsystem/MapsActivity.java
- com.example.pandafitnessmanagementsystem.MapsActivity
+com/example/pandafitnessmanagementsystem/DatePickerFragment.java
+ com.example.pandafitnessmanagementsystem.DatePickerFragment
 com/example/pandafitnessmanagementsystem/RecipeActivity.java
  com.example.pandafitnessmanagementsystem.RecipeActivity
 com/example/pandafitnessmanagementsystem/RegisterActivity.java
@@ -33,8 +33,9 @@ com/example/pandafitnessmanagementsystem/workout.java
  com.example.pandafitnessmanagementsystem.workout
 com/example/pandafitnessmanagementsystem/GetNearbyPlaces.java
  com.example.pandafitnessmanagementsystem.GetNearbyPlaces
-com/example/pandafitnessmanagementsystem/MainActivity.java
- com.example.pandafitnessmanagementsystem.MainActivity
+com/example/pandafitnessmanagementsystem/calories.java
+ com.example.pandafitnessmanagementsystem.calories
+ com.example.pandafitnessmanagementsystem.calories$1
 com/example/pandafitnessmanagementsystem/BuildConfig.java
  com.example.pandafitnessmanagementsystem.BuildConfig
 com/example/pandafitnessmanagementsystem/DataParser.java
@@ -49,8 +50,15 @@ com/example/pandafitnessmanagementsystem/MyAdapter.java
  com.example.pandafitnessmanagementsystem.MyAdapter$1
 com/example/pandafitnessmanagementsystem/DatabaseHelper.java
  com.example.pandafitnessmanagementsystem.DatabaseHelper
-com/example/pandafitnessmanagementsystem/calories.java
- com.example.pandafitnessmanagementsystem.calories
- com.example.pandafitnessmanagementsystem.calories$1
-com/example/pandafitnessmanagementsystem/DatePickerFragment.java
- com.example.pandafitnessmanagementsystem.DatePickerFragment
+com/example/pandafitnessmanagementsystem/MapsActivity.java
+ com.example.pandafitnessmanagementsystem.MapsActivity
+ com.example.pandafitnessmanagementsystem.MapsActivity$1
+ com.example.pandafitnessmanagementsystem.MapsActivity$2
+ com.example.pandafitnessmanagementsystem.MapsActivity$3
+ com.example.pandafitnessmanagementsystem.MapsActivity$4
+ com.example.pandafitnessmanagementsystem.MapsActivity$5
+ com.example.pandafitnessmanagementsystem.MapsActivity$6
+ com.example.pandafitnessmanagementsystem.MapsActivity$7
+ com.example.pandafitnessmanagementsystem.MapsActivity$8
+com/example/pandafitnessmanagementsystem/MainActivity.java
+ com.example.pandafitnessmanagementsystem.MainActivity

@@ -5,6 +5,7 @@ INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main
 INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:2:1-59:12
 INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d1fd7048410c028f34d633168fbc5c\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\fa2d31bde01ab636dd97651ce4613e92\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\8f1c30315aa2dc9bdcaaaf06c373f1f8\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\21e7d3e291bf235fa32924c9c4913e25\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -110,6 +111,8 @@ ADDED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\An
 		ADDED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:13:22-95
 application
 ADDED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:15:5-57:19
+MERGED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\fa2d31bde01ab636dd97651ce4613e92\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\fa2d31bde01ab636dd97651ce4613e92\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\8f1c30315aa2dc9bdcaaaf06c373f1f8\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -236,6 +239,8 @@ INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main
 INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d1fd7048410c028f34d633168fbc5c\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d1fd7048410c028f34d633168fbc5c\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\fa2d31bde01ab636dd97651ce4613e92\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\fa2d31bde01ab636dd97651ce4613e92\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\8f1c30315aa2dc9bdcaaaf06c373f1f8\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -362,6 +367,12 @@ INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main
 		INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml
 		ADDED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

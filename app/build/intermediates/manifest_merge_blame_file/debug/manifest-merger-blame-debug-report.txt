@@ -52,224 +52,230 @@
 31-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:19:9-54
 32        android:supportsRtl="true"
 32-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:20:9-35
-33        android:theme="@style/Theme.PandaFitnessManagementSystem" >
-33-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:21:9-66
-34        <activity android:name="com.example.pandafitnessmanagementsystem.calorie" />
-34-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:22:9-54
-34-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:22:19-42
-35        <activity android:name="com.example.pandafitnessmanagementsystem.calories" />
-35-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:23:9-46
-35-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:23:19-43
-36        <activity android:name="com.example.pandafitnessmanagementsystem.AddWorkActivity" />
-36-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:24:9-53
-36-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:24:19-50
-37        <!--
-38             The API key for Google Maps-based APIs is defined as a string resource.
-39             (See the file "res/values/google_maps_api.xml").
-40             Note that the API key is linked to the encryption key used to sign the APK.
-41             You need a different API key for each encryption key, including the release key that is used to
-42             sign the APK for publishing.
-43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-44        -->
-45        <meta-data
-45-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:33:9-35:55
-46            android:name="com.google.android.geo.API_KEY"
-46-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:34:13-58
-47            android:value="@string/google_maps_key" />
-47-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:35:13-52
-48
-49        <activity
-49-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:37:9-39:59
-50            android:name="com.example.pandafitnessmanagementsystem.MapsActivity"
-50-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:38:13-41
-51            android:label="@string/title_activity_maps" />
-51-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:39:13-56
-52        <activity android:name="com.example.pandafitnessmanagementsystem.LoginActivity" />
-52-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:40:9-51
-52-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:40:19-48
-53        <activity android:name="com.example.pandafitnessmanagementsystem.RegisterActivity" />
-53-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:41:9-54
-53-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:41:19-51
-54        <activity android:name="com.example.pandafitnessmanagementsystem.DetailActivity" />
-54-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:42:9-52
-54-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:42:19-49
-55        <activity android:name="com.example.pandafitnessmanagementsystem.RecipeActivity" />
-55-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:43:9-52
-55-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:43:19-49
-56        <activity android:name="com.example.pandafitnessmanagementsystem.advanced" />
-56-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:44:9-46
-56-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:44:19-43
-57        <activity android:name="com.example.pandafitnessmanagementsystem.intermediate" />
-57-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:45:9-50
-57-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:45:19-47
-58        <activity android:name="com.example.pandafitnessmanagementsystem.beginner" />
-58-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:46:9-46
-58-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:46:19-43
-59        <activity android:name="com.example.pandafitnessmanagementsystem.location" />
-59-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:47:9-46
-59-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:47:19-43
-60        <activity android:name="com.example.pandafitnessmanagementsystem.bmi" />
-60-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:48:9-41
-60-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:48:19-38
-61        <activity android:name="com.example.pandafitnessmanagementsystem.workout" />
-61-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:49:9-45
-61-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:49:19-42
-62        <activity android:name="com.example.pandafitnessmanagementsystem.MainActivity" >
-62-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:50:9-56:20
-62-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:50:19-47
-63            <intent-filter>
-63-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:51:13-55:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:52:17-69
-64-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:52:25-66
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:54:17-77
-66-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:54:27-74
-67            </intent-filter>
-68        </activity>
-69        <!-- Needs to be explicitly declared on P+ -->
-70        <uses-library
-70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-71            android:name="org.apache.http.legacy"
-71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-72            android:required="false" />
-72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-73
-74        <activity
-74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-76            android:excludeFromRecents="true"
-76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-77            android:exported="true"
-77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-78            android:launchMode="singleTask"
-78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-80            <intent-filter>
-80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-81                <action android:name="android.intent.action.VIEW" />
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-82
-83                <category android:name="android.intent.category.DEFAULT" />
-83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-84                <category android:name="android.intent.category.BROWSABLE" />
-84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+33        android:testOnly="true"
+34        android:theme="@style/Theme.PandaFitnessManagementSystem" >
+34-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:21:9-66
+35        <activity android:name="com.example.pandafitnessmanagementsystem.calorie" />
+35-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:22:9-54
+35-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:22:19-42
+36        <activity android:name="com.example.pandafitnessmanagementsystem.calories" />
+36-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:23:9-46
+36-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:23:19-43
+37        <activity android:name="com.example.pandafitnessmanagementsystem.AddWorkActivity" />
+37-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:24:9-53
+37-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:24:19-50
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <meta-data
+46-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:33:9-35:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:34:13-58
+48            android:value="@string/google_maps_key" />
+48-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:35:13-52
+49
+50        <activity
+50-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:37:9-39:59
+51            android:name="com.example.pandafitnessmanagementsystem.MapsActivity"
+51-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:38:13-41
+52            android:label="@string/title_activity_maps" />
+52-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:39:13-56
+53        <activity android:name="com.example.pandafitnessmanagementsystem.LoginActivity" />
+53-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:40:9-51
+53-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:40:19-48
+54        <activity android:name="com.example.pandafitnessmanagementsystem.RegisterActivity" />
+54-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:41:9-54
+54-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:41:19-51
+55        <activity android:name="com.example.pandafitnessmanagementsystem.DetailActivity" />
+55-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:42:9-52
+55-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:42:19-49
+56        <activity android:name="com.example.pandafitnessmanagementsystem.RecipeActivity" />
+56-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:43:9-52
+56-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:43:19-49
+57        <activity android:name="com.example.pandafitnessmanagementsystem.advanced" />
+57-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:44:9-46
+57-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:44:19-43
+58        <activity android:name="com.example.pandafitnessmanagementsystem.intermediate" />
+58-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:45:9-50
+58-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:45:19-47
+59        <activity android:name="com.example.pandafitnessmanagementsystem.beginner" />
+59-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:46:9-46
+59-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:46:19-43
+60        <activity android:name="com.example.pandafitnessmanagementsystem.location" />
+60-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:47:9-46
+60-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:47:19-43
+61        <activity android:name="com.example.pandafitnessmanagementsystem.bmi" />
+61-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:48:9-41
+61-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:48:19-38
+62        <activity android:name="com.example.pandafitnessmanagementsystem.workout" />
+62-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:49:9-45
+62-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:49:19-42
+63        <activity android:name="com.example.pandafitnessmanagementsystem.MainActivity" >
+63-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:50:9-56:20
+63-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:50:19-47
+64            <intent-filter>
+64-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:51:13-55:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:52:17-69
+65-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:52:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:54:17-77
+67-->D:\Program Files\Android\PandaFitnessManagementSystem\app\src\main\AndroidManifest.xml:54:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+71            android:name="com.karumi.dexter.DexterActivity"
+71-->[com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+72            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+72-->[com.karumi:dexter:6.2.3] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6bf6a1164203ed85ed88afdd3a6a800e\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+76
+77        <activity
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+78            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+83            <intent-filter>
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 85
-86                <data
-86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-87                    android:host="firebase.auth"
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-88                    android:path="/"
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-89                    android:scheme="genericidp" />
-89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-90            </intent-filter>
-91        </activity>
-92        <activity
-92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-94            android:excludeFromRecents="true"
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-95            android:exported="true"
-95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-96            android:launchMode="singleTask"
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-98            <intent-filter>
-98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-99                <action android:name="android.intent.action.VIEW" />
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-100
-101                <category android:name="android.intent.category.DEFAULT" />
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-102                <category android:name="android.intent.category.BROWSABLE" />
-102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+88
+89                <data
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+90                    android:host="firebase.auth"
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+91                    android:path="/"
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+92                    android:scheme="genericidp" />
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+96            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+101            <intent-filter>
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 103
-104                <data
-104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-105                    android:host="firebase.auth"
-105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-106                    android:path="/"
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-107                    android:scheme="recaptcha" />
-107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-108            </intent-filter>
-109        </activity>
-110
-111        <service
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-112            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-113            android:enabled="true"
-113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-114            android:exported="false" >
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-115            <intent-filter>
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-116                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-117
-118                <category android:name="android.intent.category.DEFAULT" />
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-119            </intent-filter>
-120        </service>
-121        <service
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-122            android:name="com.google.firebase.components.ComponentDiscoveryService"
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
-123            android:directBootAware="true"
-123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-124            android:exported="false" >
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-125            <meta-data
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-128        </service>
-129
-130        <activity
-130-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-131-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-132            android:exported="false"
-132-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-133-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-134
-135        <provider
-135-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-136            android:name="com.google.firebase.provider.FirebaseInitProvider"
-136-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-137            android:authorities="com.example.pandafitnessmanagementsystem.firebaseinitprovider"
-137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-138            android:directBootAware="true"
-138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-139            android:exported="false"
-139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-140            android:initOrder="100" />
-140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-141
-142        <meta-data
-142-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-143            android:name="com.google.android.gms.version"
-143-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-144            android:value="@integer/google_play_services_version" />
-144-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-145    </application>
-146
-147</manifest>
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+106
+107                <data
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+108                    android:host="firebase.auth"
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+109                    android:path="/"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+110                    android:scheme="recaptcha" />
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+111            </intent-filter>
+112        </activity>
+113
+114        <service
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+115            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+116            android:enabled="true"
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+118            <intent-filter>
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+119                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+122            </intent-filter>
+123        </service>
+124        <service
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\9cde3886a69473429606f1ba9072a0bf\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+131        </service>
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\39252603d6a7bfd7aa76ab7dd2db0911\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+140            android:authorities="com.example.pandafitnessmanagementsystem.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:20.0.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\frost\.gradle\caches\transforms-2\files-2.1\c9d0df3f0988b93d5a5fa39c4fb06ee0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+148    </application>
+149
+150</manifest>

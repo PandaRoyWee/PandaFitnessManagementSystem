@@ -63,6 +63,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+        locinput = findViewById(R.id.location_search);
         searchaddress = findViewById(R.id.search_address);
         hosnearby = findViewById(R.id.hospital_nearby);
         stanearby = findViewById(R.id.stadiums_nearby);

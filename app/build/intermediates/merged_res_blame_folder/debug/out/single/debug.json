@@ -48,12 +48,12 @@
         "source": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\src\\main\\res\\drawable\\plank.gif"
     },
     {
-        "merged": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_beginner.xml.flat",
         "source": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\src\\main\\res\\layout\\activity_beginner.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\PandaFitnessManagementSystem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
